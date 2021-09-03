@@ -1,0 +1,87 @@
+.card{
+border: 2px solid rgb(51, 50, 50);
+border-radius: 20px;
+border-width: 20px;
+width: 25%;
+margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(51, 50, 50);
+}
+.label{
+font-size: 20px;
+color: rgb(106, 106, 114);
+}
+button{
+    background-color: rgb(106, 106, 114);
+    color: white;
+    height: 31px;
+    width: 17%;
+    margin-bottom: 20px;
+    margin-right: -4px;
+    font-size: 18px;
+}
+button:hover{
+    background-color:black;
+    border-bottom:3px solid orange;
+    border-top: solid black;
+    border-left: solid black;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    
+  }
+  
+  #customers td, #customers th {
+ 
+  
+      border-bottom: 1px solid rgb(202, 196, 196);
+  
+    padding: 13px;
+    width: 33%;
+    background-color:#f2f2f2;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  /* #customers tr:hover {background-color: #ddd;} */
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#f2f2f2;;
+    color: black;
+  }
+ 
+  #customers tr th:hover {
+      background-color: #ddd;
+  }
+
+  #customers .account{color:rgb(71, 226, 231);
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+span{
+    font-size: small;
+    color: red;
+    font-weight: bolder;
+}
+span.amount{
+  color: rgb(106, 106, 114);
+    margin-left: 34%;
+}
+.name{
+  font-size: larger;
+  color:rgb(51, 50, 50)
+}
+#customers th.thName{
+  width: 38%;
+}
+#customers th.thAccount{
+  width: 38%;
+}
